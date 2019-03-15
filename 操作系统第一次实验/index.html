@@ -1,0 +1,719 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+    
+    
+      
+        <title>操作系统第一次实验 - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="My Docs" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              My Docs
+            </span>
+            <span class="md-header-nav__topic">
+              操作系统第一次实验
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Welcome to MkDocs" class="md-nav__link">
+      Welcome to MkDocs
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        操作系统第一次实验
+      </label>
+    
+    <a href="./" title="操作系统第一次实验" class="md-nav__link md-nav__link--active">
+      操作系统第一次实验
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" title="1. （系统调用实验）了解系统调用不同的封装形式" class="md-nav__link">
+    1. （系统调用实验）了解系统调用不同的封装形式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" title="2. （并发实验）根据以下代码完成下面的实验。" class="md-nav__link">
+    2. （并发实验）根据以下代码完成下面的实验。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" title="3. （内存分配实验）根据以下代码完成实验。" class="md-nav__link">
+    3. （内存分配实验）根据以下代码完成实验。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" title="4. （共享的问题）根据以下代码完成实验。" class="md-nav__link">
+    4. （共享的问题）根据以下代码完成实验。
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" title="1. （系统调用实验）了解系统调用不同的封装形式" class="md-nav__link">
+    1. （系统调用实验）了解系统调用不同的封装形式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" title="2. （并发实验）根据以下代码完成下面的实验。" class="md-nav__link">
+    2. （并发实验）根据以下代码完成下面的实验。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" title="3. （内存分配实验）根据以下代码完成实验。" class="md-nav__link">
+    3. （内存分配实验）根据以下代码完成实验。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" title="4. （共享的问题）根据以下代码完成实验。" class="md-nav__link">
+    4. （共享的问题）根据以下代码完成实验。
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">操作系统第一次实验</h1>
+<blockquote>
+<p>​                                                 王晗炜  16281049  计科1601</p>
+</blockquote>
+<h3 id="1">1. （系统调用实验）了解系统调用不同的封装形式</h3>
+<ol>
+<li>
+<p>1 阅读分别运行用API接口函数getpid()直接调用和汇编中断调用两种方式调用Linux操作系统的同一个系统调用getpid的程序(请问getpid的系统调用号是多少？linux系统调用的中断向量号是多少？)。</p>
+</li>
+<li>
+<p>调用API接口函数：</p>
+</li>
+</ol>
+<p>源代码 <code>getpid.c</code>:</p>
+<p>```c
+  #include <stdio.h>
+  #include <unistd.h></p>
+<p>int main(){
+      pid_t pid;
+      pid = getpid();
+      printf("%d\n",pid);
+      return 0;
+  }
+  ```</p>
+<p>在linux系统上编译并运行：</p>
+<p><img alt="1552569830929" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552569830929.png" /></p>
+<ul>
+<li>调用汇编中断：</li>
+</ul>
+<p>源代码 <code>assembly.c</code>:</p>
+<p>```c
+  #include <stdio.h>
+  #include <unistd.h></p>
+<p>int main(){
+      pid_t pid;
+      asm volatile(
+          "mov $0,%%ebx\n\t"
+          "mov $0<em>14,%%eax\n\t"
+          "int $0</em>80\n\t"
+          "mov %%eax,%0\n\t"
+          :"=m"(pid)
+          );
+      printf("%d\n",pid);
+      return 0;
+  }
+  ```</p>
+<p>在linux上编译并运行：</p>
+<p><img alt="1552569056438" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552569056438.png" /></p>
+<p>由以上运行结果可知这两种方式都可以顺利获取进程号，其中第一种方式直接调用了linux系统内封装好的getpid()函数，第二种方式选用汇编语言中的软中断方式，调用0×80号中断，在C源文件中嵌入汇编语言完成中断调用。</p>
+<p>通过查阅Linux系统中的unistd.h头文件可以找到为getpid设置的系统调用号为172（其查找过程如下）</p>
+<p><img alt="1552569108492" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552569108492.png" /></p>
+<p>通过阅读给出的汇编代码我们可以发现其中断向量号之后的功能号并不为172，而是0×14，即20。但程序并没有出现问题，仍成功返回了我们需要的进程号。之后自己上网查阅了相关资料，发现32位和64位的Linux系统中的系统调用号并不相同，并分别存储在unistd_32.h和unistd_64.h头文件中，在32位系统中getpid的系统调用号为20，与我们编写的汇编程序一致，64位系统中的getpid的系统调用号为39。而对于64位的操作系统，基本上已经抛弃了int 80这种老旧的系统调用的方式，取而代之的是syscall这个函数。但如果仍在64位系统中使用int 80这种软中断方式进行系统调用，便还是遵循原先32位系统中的系统调用号，这算是64位系统对之前系统的一种兼容。至此前面的疑问已经能得到解释。</p>
+<ol>
+<li>
+<p>2 上机完成习题1.13</p>
+</li>
+<li>
+<p>首先直接使用C语言实现需求：</p>
+</li>
+</ol>
+<p>源代码 <code>hello_linux.c</code>:</p>
+<p>```c
+  #include <stdio.h></p>
+<p>int main(){
+      printf("Hello Linux\n");
+      return 0;
+  }
+  ```</p>
+<p>在Linux系统中使用gcc编译并执行：</p>
+<p><img alt="1552570267787" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552570267787.png" /></p>
+<p>可知得到了对应的结果</p>
+<ul>
+<li>随后使用汇编语言实现需求：</li>
+</ul>
+<p>源代码 <code>hello_linux.asm</code>:</p>
+<p><code>c
+  section data
+  string db "Hello Linux"
+  len equ $-msg
+  section .text
+      global _start
+  _start:
+      mov eax,4
+      mov ebx,1
+      mov ecx,string
+      mov edx,len
+      int 0x80
+      mov eax,1
+      mov ebx,0
+      int 0x80</code></p>
+<p>可见输出结果正确，汇编调用成功</p>
+<ol>
+<li>
+<p>3 阅读pintos操作系统源代码，画出系统调用实现的流程图。</p>
+</li>
+<li>
+<p>首先可以在github上的Pintos项目中查阅其源代码，在<a href="https://github.com/laiy/Pintos">Pintos</a>/<a href="https://github.com/laiy/Pintos/tree/master/src">src</a>/lib/syscall-nr.h中我们可以看到一系列的系统调用号：</p>
+</li>
+</ol>
+<p>```c
+    {
+      /<em> Projects 2 and later. </em>/
+      SYS_HALT,                   /<em> Halt the operating system. </em>/
+      SYS_EXIT,                   /<em> Terminate this process. </em>/
+      SYS_EXEC,                   /<em> Start another process. </em>/
+      SYS_WAIT,                   /<em> Wait for a child process to die. </em>/
+      SYS_CREATE,                 /<em> Create a file. </em>/
+      SYS_REMOVE,                 /<em> Delete a file. </em>/
+      SYS_OPEN,                   /<em> Open a file. </em>/
+      SYS_FILESIZE,               /<em> Obtain a file's size. </em>/
+      SYS_READ,                   /<em> Read from a file. </em>/
+      SYS_WRITE,                  /<em> Write to a file. </em>/
+      SYS_SEEK,                   /<em> Change position in a file. </em>/
+      SYS_TELL,                   /<em> Report current position in a file. </em>/
+      SYS_CLOSE,                  /<em> Close a file. </em>/</p>
+<pre><code>  /* Project 3 and optionally project 4. */
+  SYS_MMAP,                   /* Map a file into memory. */
+  SYS_MUNMAP,                 /* Remove a memory mapping. */
+
+  /* Project 4 only. */
+  SYS_CHDIR,                  /* Change the current directory. */
+  SYS_MKDIR,                  /* Create a directory. */
+  SYS_READDIR,                /* Reads a directory entry. */
+  SYS_ISDIR,                  /* Tests if a fd represents a directory. */
+  SYS_INUMBER                 /* Returns the inode number for a fd. */
+};
+</code></pre>
+<p>```</p>
+<p>这个调用表中给出了pintos系统能实现的所有系统调用</p>
+<p>随后继续打开Pintos/src/lib/user/syscall.c，里面先给出了4中系统调用函数的调用方式，分别为syscall0,syscall1,syscall2,syscall3，每种方式需要传入的参数不同，但所有方式都必需传入系统调用号。</p>
+<p>其后还给出了与上表对应的封装完成的函数，系统在使用这些函数的时候简洁调用了以上定义的四种系统调用函数，以下为此源文件的部分代码：</p>
+<p>```c
+  #define syscall0(NUMBER)                                        \
+          ({                                                      \
+            int retval;                                           \
+            asm volatile                                          \
+              ("pushl %[number]; int $0x30; addl $4, %%esp"       \
+                 : "=a" (retval)                                  \
+                 : [number] "i" (NUMBER)                          \
+                 : "memory");                                     \
+            retval;                                               \
+          })</p>
+<p>/<em> Invokes syscall NUMBER, passing argument ARG0, and returns the
+     return value as an `int'. </em>/
+  #define syscall1(NUMBER, ARG0)                                           \
+          ({                                                               \
+            int retval;                                                    \
+            asm volatile                                                   \
+              ("pushl %[arg0]; pushl %[number]; int $0x30; addl $8, %%esp" \
+                 : "=a" (retval)                                           \
+                 : [number] "i" (NUMBER),                                  \
+                   [arg0] "g" (ARG0)                                       \
+                 : "memory");                                              \
+            retval;                                                        \
+          })</p>
+<p>/<em> Invokes syscall NUMBER, passing arguments ARG0 and ARG1, and
+     returns the return value as an `int'. </em>/
+  #define syscall2(NUMBER, ARG0, ARG1)                            \
+          ({                                                      \
+            int retval;                                           \
+            asm volatile                                          \
+              ("pushl %[arg1]; pushl %[arg0]; "                   \
+               "pushl %[number]; int $0x30; addl $12, %%esp"      \
+                 : "=a" (retval)                                  \
+                 : [number] "i" (NUMBER),                         \
+                   [arg0] "g" (ARG0),                             \
+                   [arg1] "g" (ARG1)                              \
+                 : "memory");                                     \
+            retval;                                               \
+          })</p>
+<p>/<em> Invokes syscall NUMBER, passing arguments ARG0, ARG1, and
+     ARG2, and returns the return value as an `int'. </em>/
+  #define syscall3(NUMBER, ARG0, ARG1, ARG2)                      \
+          ({                                                      \
+            int retval;                                           \
+            asm volatile                                          \
+              ("pushl %[arg2]; pushl %[arg1]; pushl %[arg0]; "    \
+               "pushl %[number]; int $0x30; addl $16, %%esp"      \
+                 : "=a" (retval)                                  \
+                 : [number] "i" (NUMBER),                         \
+                   [arg0] "g" (ARG0),                             \
+                   [arg1] "g" (ARG1),                             \
+                   [arg2] "g" (ARG2)                              \
+                 : "memory");                                     \
+            retval;                                               \
+          })
+  void
+  exit (int status)
+  {
+    syscall1 (SYS_EXIT, status);
+    NOT_REACHED ();
+  }</p>
+<p>pid_t
+  exec (const char *file)
+  {
+    return (pid_t) syscall1 (SYS_EXEC, file);
+  }</p>
+<p>int
+  wait (pid_t pid)
+  {
+    return syscall1 (SYS_WAIT, pid);
+  }</p>
+<p>bool
+  create (const char *file, unsigned initial_size)
+  {
+    return syscall2 (SYS_CREATE, file, initial_size);
+  }</p>
+<p>bool
+  remove (const char *file)
+  {
+    return syscall1 (SYS_REMOVE, file);
+  }
+  ```</p>
+<p>随后我们进一步在该源代码中的中的Pintos/src/userprog/syscall.c文件中找到了中断初始函数：</p>
+<p><code>c
+  void
+  syscall_init (void) 
+  {
+    intr_register_int (0x30, 3, INTR_ON, syscall_handler, "syscall");
+  }</code></p>
+<p>在此函数中我们可以发现中断调用的中断号为0×30，并允许中断嵌套，根据其文件所include的文件，我们找到threads/interrupt.c文件，其中intr_register_int函数的定义如下：</p>
+<p><code>c
+  void intr_register_int (uint8_t vec_no, int dpl, enum intr_level level,
+                     intr_handler_func *handler, const char *name)
+  {
+    ASSERT (vec_no &lt; 0x20 || vec_no &gt; 0x2f);
+    register_handler (vec_no, dpl, level, handler, name);
+  }</code></p>
+<p>这里传入的参数符合断言要求，因此又进入了register_handler函数，此函数中使用的数组则涉及到intr-stubs.S汇编文件的数组，其中的信息包括了调用的功能号及其他限制信息。至此系统调用的过程全部完成。以下为流程图：</p>
+<p><img alt="1552570778061" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552570778061.png" /></p>
+<h3 id="2">2. （并发实验）根据以下代码完成下面的实验。</h3>
+<ol>
+<li>
+<p>1 编译运行该程序（cpu.c），观察输出结果，说明程序功能。</p>
+</li>
+<li>
+<p>源程序 <code>cpu.c</code>:</p>
+</li>
+</ol>
+<p>```c
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <sys/time.h>
+  #include <assert.h>
+  #include <unistd.h></p>
+<p>int main(int argc, char <em>argv[]){
+      if(argc != 2){
+          fprintf(stderr,"usage:cpu<string>\n");
+          exit(1);
+      }
+      char </em>str = argv[1];
+      while(1){
+          sleep(1);
+          printf("%s\n",str);
+      }
+      return 0;
+  }
+  ```</p>
+<p>使用gcc编译运行：</p>
+<p><img alt="1552570969486" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552570969486.png" /></p>
+<p>由上图可见程序运行成功，通过分析C语言源代码可知，此程序共有两个功能，当不输入参数或输入多个参数运行时，会直接在屏幕上打印出此程序需要传入的参数和用处，即打印“usage:cpu<string>”，当传入参数字符串时，便会直接在屏幕上循环打印输入的字符串，以一秒为间隔。</p>
+<ol>
+<li>
+<p>2 再次按下面的运行并观察结果：执行命令：./cpu A &amp; ; ./cpu B &amp; ; ./cpu C &amp; ; ./cpu D &amp;程序cpu运行了几次？他们运行的顺序有何特点和规律？请结合操作系统的特征进行解释。</p>
+</li>
+<li>
+<p>按照要求运行程序：</p>
+</li>
+</ol>
+<p><img alt="1552571219135" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552571219135.png" /></p>
+<p>从上图可以得知系统使用了四个进程运行该程序，每隔一秒在屏幕上打印一次ABCD，由于程序未设置终止条件，所以程序会一直运行下去，但程序运行的顺序并不确定。这是因为如今的操作系统在同时运行多个程序时会并发执行而不是顺序执行，也就是具有并发的特征。程序在并发执行时，是多个程序共享系统中的各种资源，因而这些资源的状态将由多个程序来改变，致使程序的运行失去了封闭性。这样，某程序在执行时，必然会受到其它程序的影响。例如，当处理机这一资源已被某个程序占有时，另一程序必须等待。程序在并发执行时，由于失去了封闭性，也将导致其再失去可再现性。因此每一轮程序的运行顺序都会不尽相同。</p>
+<h3 id="3">3. （内存分配实验）根据以下代码完成实验。</h3>
+<ol>
+<li>1 阅读并编译运行该程序(mem.c)，观察输出结果，说明程序功能。</li>
+</ol>
+<p>程序源代码 <code>mem.c</code>：</p>
+<p>```c
+   #include <unistd.h>
+   #include <assert.h>
+   #include <stdio.h>
+   #include <stdlib.h></p>
+<p>int main(int argc,char <em>argv[]){
+       int </em>p = malloc(sizeof(int)); //a1
+       assert(p != NULL);
+       printf("(%d) address pointed to by p:%p\n",getpid(),p); //a2
+       <em>p = 0;//a3
+       while(1){
+           sleep(1);
+           </em>p = <em>p + 1;
+           printf("(%d) p:%d\n",getpid(),</em>p);//a4
+       }
+       return 0;
+   }
+   ```</p>
+<p>在Linux系统下使用gcc编译并运行：</p>
+<p><img alt="1552571391337" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552571391337.png" /></p>
+<p>由上图的运行结果结合源码进行分析可知道，该程序先为一个指针申请了一个整数字符空间大小的空间，随后打印出进程号和申请的内存空间的首地址并将内存中储存的整数字符置为0。之后每隔一秒将该整数加1并打印其值于屏幕上，循环往复不设终结。</p>
+<p>3.2再次按下面的命令运行并观察结果。两个分别运行的程序分配的内存地址是否相同？是否共享同一块物理内存区域？为什么？</p>
+<p>按照题目要求同时运行两个mem程序</p>
+<p><img alt="1552571454667" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552571454667.png" /></p>
+<p>由上图的结果我们可以得知两个进程分别给与了不同的内存地址，其操作的数值互不干扰，并发运行。表面上看并没有共享一块内存地址。通过查阅相关资料，Linux中的进程内存管理采用的是虚拟内存管理技术，Linux操作系统采用虚拟内存管理技术，使得每个进程都有各自互不干涉的进程地址空间。该空间是块大小为4G的线性虚拟空间，用户所看到和接触到的都是该虚拟地址，无法看到实际的物理内存地址。利用这种虚拟地址不但能起到保护操作系统的效果（用户不能直接访问物理内存），而且更重要的是，用户程序可使用比实际物理内存更大的地址空间。</p>
+<p>每一个进程都运行在一个属于它自己的内存沙盘中，这个沙盘就是虚拟地址空间，在32位模式下它总是一个4GB的内存地址块。这些虚拟地址通过页表映射到物理内存，页表由操作系统维护并被处理器引用。因此虽然两个进程的虚拟内存地址并不相同，也不代表它们的实际内存地址不同，但它们一定都应用的是同一块连续的内存块。</p>
+<h3 id="4">4. （共享的问题）根据以下代码完成实验。</h3>
+<ol>
+<li>1阅读并编译运行该程序，观察输出结果，说明程序功能。</li>
+</ol>
+<p>程序源代码 <code>thread.c</code>:</p>
+<p>```c
+   #include <stdio.h>
+   #include <stdlib.h>
+   #include <pthread.h>
+   #include <unistd.h></p>
+<p>volatile int counter = 0;
+   int loops;</p>
+<p>void <em>worker(void </em>arg){
+       int i;
+       for(i = 0;i &lt; loops;i++){
+           counter++;<br />
+       }
+       return NULL;
+   }</p>
+<p>int main(int argc,char *argv[]){
+       if(argc != 2){
+           fprintf(stderr,"usage:threads<value>\n");
+           exit(1);  <br />
+       }
+       loops = atoi(argv[1]);
+       pthread_t p1,p2;
+       printf("Initial value:%d\n",counter);</p>
+<pre><code>   pthread_create(&amp;p1,NULL,worker,NULL);
+   pthread_create(&amp;p2,NULL,worker,NULL);
+   pthread_join(p1,NULL);
+   pthread_join(p2,NULL);
+   printf("Final value:%d\n",counter);
+   return 0;
+</code></pre>
+<p>}
+   ```</p>
+<p>在Linux下使用gcc编译并运行：</p>
+<p><img alt="1552571635658" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552571635658.png" /></p>
+<p>由以上结果结合源代码分析可知，当不输入任何参数或者输入多个参数时程序会进行报错，在屏幕上打印出程序的使用方法。当输入参数（如1000）时，程序会使用两个进程对共同变量counter变量进行循环加1，循环次数为loops的值，即输入参数的大小，最后将counter的值打印在屏幕上。</p>
+<p>4.2 尝试其他输入参数并执行，并总结执行结果的有何规律？你能尝试解释它吗？（例如执行命令2：./thread 100000）</p>
+<p><img alt="1552571659942" src="C:\Users\安静古法\AppData\Roaming\Typora\typora-user-images\1552571659942.png" /></p>
+<p>当输入参数100000之后，可以发现打印出来的最后结果并不为200000，而是远小于它，随后自己尝试了更大的参数，结果也是如此。通过查找相关资料可以得知volatile关键字可以被解释为“直接存取原始内存地址”，因此每次编译器就会直接从内存地址中读取该关键字修饰的变量的值，当两个线程都要用到某一个变量且该变量的值会被改变时，应该用 volatile 声明，该关键字的作用是防止优化编译器把变量从内存装入CPU寄存器中。如果变量被装入寄存器，那么两个线程有可能一个使用内存中的变量，一个使用寄存器中的变量，这会造成程序的错误执行。</p>
+<p>但单纯使用该关键字而没有锁的机制，会是进程读出脏数据，即过时的数据，在本程序中可表现为进程1刚从内存中读出数据并加1，在它保存回其内存之前，进程2就已经读出了内存中的数值并进行运算，所以本该有两次加法运算的值最后的结果只进行了一次运算，造成了最终结果远小于loops值的两倍。</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Welcome to MkDocs" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Welcome to MkDocs
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.d9aa80ab.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
